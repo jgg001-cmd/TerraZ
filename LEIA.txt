@@ -1,0 +1,12 @@
+SERVIDOR ONLINE DO TERRAZ (pra jogar online fora do Claude: APK ou Chrome)
+
+1. Crie uma conta grátis no GitHub e um repositório novo (pode ser pelo celular).
+2. Envie os arquivos server.js e package.json pro repositório ("Add file" > "Upload files").
+3. Crie conta grátis no Render (render.com) > New > Web Service > escolha o repositório.
+   Build Command: npm install    Start Command: npm start    Plano: Free
+4. Quando terminar, o Render mostra um endereço tipo https://terraz-online.onrender.com
+5. No jogo: Menu > Servidor online > escreva  wss://terraz-online.onrender.com  (troque pelo seu)
+   ou coloque esse endereço em SERVIDOR_PADRAO dentro do jogo pra todo mundo já entrar nele.
+6. Feche e abra o jogo. Em cima aparece "2 online" quando outra pessoa entrar.
+
+Obs.: no plano grátis o Render "dorme" depois de 15 min sem ninguém; a primeira conexão demora uns 30-50 s pra acordar.
